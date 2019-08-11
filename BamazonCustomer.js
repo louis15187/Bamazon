@@ -3,7 +3,7 @@ var currentDepartment;
 var updateSales;
 
 var connection = mysql.createConnection({
-    host: 'localhost',
+    host: '127.0.0.1:3306',
     port: 3306,
     user: 'root',
     password: 'butters21',

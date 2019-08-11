@@ -1,9 +1,12 @@
+var inquirer = require('inquirer');
+var mysql = require('mysql');
+
 var amountOwed;
 var currentDepartment;
 var updateSales;
 
 var connection = mysql.createConnection({
-    host: '127.0.0.1:3306',
+    host: 'localhost',
     port: 3306,
     user: 'root',
     password: 'butters21',
